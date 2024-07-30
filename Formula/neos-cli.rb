@@ -1,8 +1,8 @@
 class NeosCli < Formula
   desc "The neosphere CLI tool."
   homepage "https://neo.de"
-  url "https://github.com/neosw-oss/homebrew-tap/releases/download/0.0.1/sphere-0.0.1.tar.gz"
-  sha256 "ec5ca4d8b232289392fad9a7585933b35f5a8542c8e7c47ced6d6e804b7a3042"
+  url "https://github.com/neosw-oss/homebrew-tap/releases/download/0.7.0/sphere.tar.gz"
+  sha256 "307401f83628b4e0dab53a880ff5fb9e00c810702d31a26839cdd7aad2e4ff2d"
 
   def install
     bin.install "sphere"
